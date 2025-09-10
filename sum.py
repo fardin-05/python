@@ -7,5 +7,6 @@ for i in My_List :
 
 #sum in all list numbers 
 My_List_2 = My_List
-total= sum(My_List)
+total= sum(My_List_2)
 print("Total:",total)
+    
