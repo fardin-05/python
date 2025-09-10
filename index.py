@@ -1,6 +1,6 @@
 a= int(input("Ener Your first Number : "))
 b= int(input("Enter Your Secound Number :"))
-c=input("Enter YOur operator :")
+c=input("Enter Your operator :")
 
 
 if c== '+':
