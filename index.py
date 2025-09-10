@@ -1,5 +1,5 @@
 a= int(input("Ener Your first Number : "))
-b= int(input("Enter YOur Secound Number :"))
+b= int(input("Enter Your Secound Number :"))
 c=input("Enter YOur operator :")
 
 
