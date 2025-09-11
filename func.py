@@ -1,5 +1,4 @@
 # use function to check largest number 
-
 def largest (a,b,c):
     
     if a>=b and a>=c : #return max(a, b, c)
@@ -10,8 +9,8 @@ def largest (a,b,c):
         return c
     else :
        return 'Invalid (please enter intiger number ! )'
+        
 #calculation 
-
 def calculation (a,b,c,d):
     try :
        
@@ -30,7 +29,6 @@ def calculation (a,b,c,d):
         return "Error: Division by zero is not allowed!"   
     
 #selection 
-
 print('----menu----')
 print('1.check largest Number ')
 print('2.calculation(+ - * /)')
@@ -66,4 +64,5 @@ try :
     print("incorrect Your Selection ")
 except ValueError:
     print("Error: Please enter valid integer numbers!")
+
 
