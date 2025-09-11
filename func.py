@@ -1,6 +1,5 @@
 # use function to check largest number 
 def largest (a,b,c):
-    
     if a>=b and a>=c : #return max(a, b, c)
         return a 
     elif b>=a and b>=c :
@@ -13,7 +12,6 @@ def largest (a,b,c):
 #calculation 
 def calculation (a,b,c,d):
     try :
-       
        if d=='+':
         return a+b+c
        elif d=="-":
@@ -22,7 +20,6 @@ def calculation (a,b,c,d):
         return a*b*c 
        elif d=='/':
         return a/b/c 
-
        else :
         return 'Invalid operator'
     except ZeroDivisionError:
@@ -42,9 +39,8 @@ try :
       b=int(input("Enter Your Second number : "))
       c=int(input("Enter Your Third number : ")) 
       print (" largest number is : " , largest(a,b,c))
-
+       
    elif choice == '2' :
-    
     print('\'avoid divide by zero (ZeroDivisionError:division by zero )\'')
     a=int(input("Enter Your First number : "))
     b=int(input("Enter Your Second number : "))
@@ -64,5 +60,6 @@ try :
     print("incorrect Your Selection ")
 except ValueError:
     print("Error: Please enter valid integer numbers!")
+
 
 
