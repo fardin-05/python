@@ -48,7 +48,7 @@ try :
     d=input("Enter Your Operator (+ - * /):")
     print ("The total is : " , calculation(a,b,c,d))
 
-   elif choice =='3':
+   elif choice == '3' :
     a=int(input("Enter Your First number : "))
     b=int(input("Enter Your Second number : "))
     c=int(input("Enter Your Third number : ")) 
@@ -60,6 +60,7 @@ try :
     print("incorrect Your Selection ")
 except ValueError:
     print("Error: Please enter valid integer numbers!")
+
 
 
 
